@@ -1,0 +1,131 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    margin:0;
+    padding:0;
+}
+.container{
+    margin:50px auto;
+    border:1px solid black;
+    flex-direction: row;
+    background-color:rgb(247, 255, 255);
+}
+.col-6 img{
+    border-radius: 50%;
+
+    width:180px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 60px;
+
+}
+.two img:hover{
+    transition:  all 2s ease;
+    width: 200px;
+    height: 150px;
+    border: 1px solid lightgray;
+
+}
+.border{
+    width:200px;
+    margin: 10px;
+    border-radius: 100px;
+    text-align: center;
+    color: royalblue;
+    margin-top: 50px;
+}
+.border:hover{
+    background-color: aliceblue;
+    color: lightgreen;
+    border:1px solid lightgrey !important;
+}
+.border a{
+    color: lightgreen;
+    text-decoration: none;
+}
+.border a:hover{
+    color: royalblue;
+
+}
+.span{
+    text-transform: capitalize;
+    color: royalblue;
+    margin-left: 10px;
+}
+.one{
+    margin: 40px auto;
+
+}
+.one img{
+    border-radius: none;
+    width: 400px;
+    height: 350px;
+    margin-left:100px;
+    margin-bottom: 60px;
+    border-radius: 100px;
+}
+.png1 img{
+    width: 70px;
+    height:60px;
+    position: absolute;
+    top:130px;
+    right: 250px;
+}
+.png2 img{
+    width: 70px;
+    height:60px;
+    position: absolute;
+    top:250px;
+    right: 650px;
+}
+.png3 img{
+    width: 70px;
+    height:60px;
+    position: absolute;
+    top:350px;
+    right: 230px;
+}
+@media  screen and (max-width:600px){
+    .png1{
+        display: none;
+    }
+    
+}
+@media  screen and (max-width:700px){
+    .png1{
+        display: none;
+    }
+    
+}
+@media  screen and (max-width:600px){
+    .png2{
+        display: none;
+    }
+    
+}
+@media  screen and (max-width:600px){
+    .png3{
+        display: none;
+    }
+    
+}
+@media  screen and (max-width:700px){
+    .png2{
+        display: none;
+    }
+
+}
+@media  screen and (max-width:600px){
+    .png3{
+        display: none;
+    }
+    
+}
+@media  screen and (max-width:700px){
+    .png3{
+        display: none;
+    }
+    
+}
