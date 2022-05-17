@@ -22,3 +22,123 @@ body{
 .card-body{
     background-color:aliceblue;
 }
+@media screen and (max-width:1349px) {
+    .container{
+        border: 1px solid red;
+        text-align: center;
+        width: 100%;
+        /* margin: 0px; */
+        text-align: center !important;
+    }
+    .raw{
+        margin:  0px auto;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .row{
+        border: none;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .col-3{
+        border: none;
+        text-align: center;
+        margin: 0px !important;
+        /* border: 1px solid red; */
+        width: 275px !important;
+    }
+    .card{
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    
+}
+@media screen and (max-width:1200px){
+    .col-6>.one{
+        margin-right: 30px;
+        border: 1px solid red;
+        text-align: center;
+    }
+    .col-6>.one img{
+        margin: 0px auto;
+    }
+    
+}
+@media screen and (max-width:1200px){
+    .col-3{
+        border: none;
+        text-align: center;
+        margin: 0px !important;
+        /* border: 1px solid red; */
+        width: 319px !important;
+
+    }
+    
+}
+@media screen and (max-width:1200px){
+    .col-3{
+        border: none;
+        text-align: center;
+        margin: 0px !important;
+        /* border: 1px solid red; */
+        width: 319px !important;
+
+    }
+    
+}
+@media screen and (max-width:1200px){
+    .col-3{
+        border: none;
+        text-align: center;
+        margin: 0px !important;
+        /* border: 1px solid red; */
+        width: 319px !important;
+
+    }
+    
+}
+@media screen and (max-width:995px){
+    .col-3,.card{
+        border: none;
+        text-align: center;
+        margin: 0px !important;
+        /* border: 1px solid red; */
+        width: 350px !important;
+
+    }
+    
+}
+@media screen and (max-width:770px){
+    .col-3,.card{
+        border: none;
+        text-align: center;
+        margin: 0px !important;
+        /* border: 1px solid red; */
+        width: 515px !important;
+
+    }
+    
+}
+@media screen and (max-width:480px){
+    .col-3,.card{
+        border: none;
+        text-align: center;
+        margin: 0px !important;
+        /* border: 1px solid red; */
+        width: 440px !important;
+
+    }
+    
+}
+@media screen and (max-width:360px){
+    .col-3,.card{
+        border: none;
+        text-align: center;
+        margin: 0px !important;
+        /* border: 1px solid red; */
+        width: 320px !important;
+
+    }
+    
+}
+

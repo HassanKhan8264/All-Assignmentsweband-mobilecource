@@ -87,45 +87,104 @@ body{
     top:350px;
     right: 230px;
 }
-@media  screen and (max-width:600px){
-    .png1{
-        display: none;
+@media screen and (max-width:1333px){
+    .png2,.png2 img{
+    margin: 0px;
+    /* margin-left: -200px; */
+    position: absolute;
+    top: 150px;
+    right: 280px;
+        border: 1px solid red;
     }
     
 }
-@media  screen and (max-width:700px){
-    .png1{
-        display: none;
+@media screen and (max-width:1200px){
+    .col-6>.one{
+        margin-right: 30px;
+        border: 1px solid red;
+        text-align: center;
+    }
+    .col-6>.one img{
+        margin: 0px auto;
     }
     
 }
-@media  screen and (max-width:600px){
-    .png2{
-        display: none;
+@media screen and (max-width:1024px){
+    .png2,.png2 img{
+    margin: 0px;
+    /* margin-left: -200px; */
+    position: absolute;
+    top: 150px;
+    right: 240px;
+        border: 1px solid red;
+    }
+    .png1,.png1 img{
+        margin: 0px;
+        /* margin-left: -200px; */
+        position: absolute;
+        top: 50px;
+        right: 40px;
+            border: 1px solid red;
     }
     
 }
-@media  screen and (max-width:600px){
+@media screen and (max-width:1200px){
+    .col-6>.one{
+        margin-right: 30px;
+        border: 1px solid red;
+        text-align: center;
+    }
+    .col-6>.one img{
+        margin: 0px auto;
+    }
+    
+}
+@media screen and (max-width:786px){
+    .png2,.png2 img{
+    display: none;
+    }
+    .png1,.png1 img{
+        margin: 0px;
+        /* margin-left: -200px; */
+        position: absolute;
+        top: 50px;
+        right: 40px;
+            border: 1px solid red;
+            display: none;
+    }
     .png3{
         display: none;
     }
+    .one,.one img{
+        width: 80%;
+        margin-top: 100px;
+    }
+    .row{
+        flex-direction: row;
+        flex-direction: row;
+    }
+    .one img{
+        width: 100%;
+    }
     
 }
-@media  screen and (max-width:700px){
-    .png2{
-        display: none;
+@media screen and (max-width:1200px){
+    .col-6>.one{
+        margin-right: 30px;
+        border: 1px solid red;
+        text-align: center;
     }
-
-}
-@media  screen and (max-width:600px){
-    .png3{
-        display: none;
+    .col-6>.one img{
+        margin: 0px auto;
     }
     
 }
-@media  screen and (max-width:700px){
-    .png3{
+@media screen and (max-width:360px){
+    .one{
         display: none;
+    }
+    body{
+        text-align: center;
     }
     
 }
